@@ -5,27 +5,31 @@
   position: relative;
   width: 100%;
 }
+#newscontainer .introduct,
 #blog .introduct {
   padding: 8rem 0rem 2rem 0rem;
   width: 100%;
 }
+#newscontainer .introduct .container,
 #blog .introduct .container {
   padding: 0rem 1.5rem;
   max-width: 114rem;
   margin: 0 auto;
 }
-
+#newscontainer .introduct .t-black,
 #blog .introduct .t-black {
   letter-spacing: 0.5rem;
   color: black !important;
   font-weight: 500;
   font-size: 1.2rem;
 }
+#newscontainer .introduct .t-black h5,
 #blog .introduct .t-black h5 {
   display: block;
   margin-top: 1.5rem;
   text-transform: uppercase;
 }
+#newscontainer .introduct .t-content,
 #blog .introduct .t-content {
   font-size: 4rem;
   margin: 5rem 0rem 1rem 0rem;
@@ -41,15 +45,18 @@
   display: inline-block;
   margin: 0 auto;
 }
+#newscontainer .introduct .t-gold,
 #blog .introduct .t-gold {
   font-size: 4rem;
   font-weight: 500;
   line-height: 1.2rem;
   color: #06aa2a !important;
 }
+#newscontainer .introduct .container .bot-content,
 #blog .introduct .container .bot-content {
   margin: 3rem 0rem 3rem 0rem;
 }
+#newscontainer .container-blog,
 #blog .container-blog {
   position: relative;
   height: 48rem;
