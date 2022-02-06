@@ -30,6 +30,12 @@
   padding: 0 1rem;
   cursor: pointer;
 }
+#newscontainer .news-col .col8 h4 {
+  font-size: 1.8rem;
+  margin-top: 1.5vw;
+  margin-bottom: 1vw;
+  line-height: 1.5;
+}
 #newscontainer .news-col .col8 h2 {
   font-size: 2.4rem;
   margin-top: 1.5vw;
