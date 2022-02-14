@@ -36,7 +36,7 @@
 #login .login-banner .uilogin .login-mid input {
   min-width: 40rem;
   min-height: 6rem;
-  margin: 30px auto 20px;
+  margin: 30px auto 15px;
   background-color: rgba(207, 253, 213, 0.151);
   border: 0.5px solid rgba(166, 248, 177, 0.849);
   display: block;
@@ -46,8 +46,24 @@
   padding: 12px 20px;
   font-size: 15px;
 }
-#login .login-banner .uilogin .login-mid a {
+#login .login-banner .uilogin .login-mid .sub-login-mid {
+  width: 58rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+}
+#login .login-banner .uilogin .login-mid .sub-login-mid p {
+  display: inline;
+}
+#login .login-banner .uilogin .login-mid .sub-login-mid a {
   text-decoration: none;
+  font-size: 1.4rem;
+  color: #06aa2a;
+}
+#login .login-banner .uilogin .login-bot input:hover,
+#login .login-banner .uilogin .login-mid .sub-login-mid a:hover {
+  opacity: 0.5;
+  cursor: pointer;
 }
 #login .login-banner .uilogin .login-mid input:focus {
   background-color: rgba(207, 253, 213, 0.959);
@@ -63,4 +79,26 @@
     rgba(0, 151, 0, 0.363)
   );
   border: none;
+}
+#login .login-banner .uilogin .another-login .mxh {
+  margin-top: 6rem;
+}
+#login .login-banner .uilogin .another-login .mxh .primary-btn {
+  padding: 2.5rem 2rem 2rem 2rem !important;
+  width: 6rem;
+  height: 6rem;
+  line-height: 2em !important;
+  border-radius: 0.6rem;
+  border-color: transparent;
+  background: #fff !important;
+  margin: 0.5rem;
+}
+#login .login-banner .uilogin .another-login .mxh .primary-btn i {
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: green !important;
+  text-align: center;
+}
+#login .login-banner .uilogin .another-login .mxh .primary-btn i:hover {
+  opacity: 0.5;
 }
