@@ -37,7 +37,7 @@
 }
 #slider .banner-section .text-slider .morebanner-btn {
   padding: 1.5vw;
-  min-width: 10rem;
+  min-width: 5rem;
   border: 2px solid #06aa2a;
   text-align: center;
   font-weight: 500;
@@ -46,7 +46,7 @@
   background-color: #06aa2a;
   border-radius: 5px;
 }
-.text-slider .morebanner-btn a {
+.text-slider a {
   text-decoration: none;
   color: #fff;
   font-size: 1.4rem;
