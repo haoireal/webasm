@@ -14,7 +14,11 @@
     <link rel="shortcut icon" href="img/GoodTrip5.png" />
     <link rel="stylesheet" href="CSS/main.css" />
     <link rel="stylesheet" href="CSS/header.css" />
-    <link rel="stylesheet" href="CSS/login.css" />
+    <link rel="stylesheet" href="CSS/content.css" />
+    <link rel="stylesheet" href="CSS/slider.css" />
+    <link rel="stylesheet" href="CSS/booking.css" />
+    <link rel="stylesheet" href="CSS/blog.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
     <title>| GoodTrip Việt Nam</title>
   </head>
   <body>
@@ -81,51 +85,61 @@
 
         <!-- End menu nav -->
       </header>
-      <!-- LOGIN -->
-      <div id="login">
-        <div class="login-banner">
-          <div class="uilogin">
-            <div class="login-top">
-              <img src="img/GoodTrip5.png" alt="Logonav" />
-              <h1>
-                ĐĂNG NHẬP VÀO <span style="color: #06aa2a">GOODTRIP</span>
-              </h1>
-            </div>
-            <div class="login-mid">
-              <input
-                type="text"
-                placeholder="Số điện thoại hoặc Email"
-                name="phone"
-                maxlength="11"
-                value=""
-              />
-              <input
-                name="phone_code"
-                placeholder="Mật khẩu"
-                type="password"
-                maxlength="6"
-                value=""
-              />
-              <div class="sub-login-mid">
-                <p><a href="#">Đăng kí</a></p>
-                <p><a href="#">Quên mật khẩu?</a></p>
+      <!-- ============================== -->
+
+      <!-- ============================== -->
+      <div id="footer">
+        <div class="footer-top">
+          <div class="contact-container center">
+            <div class="contact-top">
+              <div class="introduct">
+                <div class="container">
+                  <div class="content center">
+                    <h5 class="t-black">ĐI KHẮP VIỆT NAM</h5>
+                    <span class="line gold"></span>
+                    <h2 class="t-content">
+                      ĐỪNG QUÊN RẰNG CÒN CÓ
+                      <span class="t-gold">GOODTRIP</span>
+                    </h2>
+                    <h5 class="t-black bot-content">
+                      HÃY GIỮ LIÊN LẠC VỚI GOODTRIP
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              <div class="container-email">
+                <input
+                  id="form_email"
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Để lại Email của bạn*"
+                  required="required"
+                />
+                <input type="submit" name="submit" id="submit" value="Giử" />
               </div>
             </div>
-            <div class="login-bot">
-              <input type="submit" value="Đăng nhập" />
-            </div>
-            <div class="another-login">
+            <div class="contact-bot">
+              <h5 class="t-black">GIỮ LIÊN LẠC VỚI CHÚNG TÔI</h5>
+              <span class="line gold"></span>
               <div class="mxh">
                 <a href="" class="primary-btn"
                   ><i class="fab fa-facebook-square" aria-hidden="true"></i
                 ></a>
-                <a href="" class="primary-btn"><i class="fab fa-google"></i></a>
+                <a href="" class="primary-btn"
+                  ><i class="fab fa-instagram" aria-hidden="true"></i
+                ></a>
+                <a href="" class="primary-btn"
+                  ><i class="fab fa-twitter" aria-hidden="true"></i
+                ></a>
               </div>
+            </div>
+            <div class="footer-end">
+              2022 - Trang web được thiết kế bởi PS20626 | Phạm Gia Hào ©
             </div>
           </div>
         </div>
       </div>
-      <!-- END LOGIN -->
     </div>
   </body>
 </html>
