@@ -72,7 +72,6 @@
   display: none;
   position: absolute;
   top: 100%;
-  left: 0%;
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
@@ -115,4 +114,38 @@
 }
 #header .login-btn:hover a {
   color: rgba(255, 125, 125, 0.5);
+}
+
+.menu_top #nav li .timkiem {
+  cursor: text;
+  height: 5rem;
+  vertical-align: middle;
+  white-space: nowrap;
+  background: #ccc;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #ccc;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  opacity: 0.7;
+  font-size: 2rem;
+}
+.menu_top #nav li .timkiem:focus {
+  min-width: 74.7rem;
+  display: block;
+  position: absolute;
+  left: -160%;
+  font-size: 2rem;
+  white-space: nowrap;
+  background: #ccc;
+  border: none;
+  float: left;
+  color: #63717f;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
