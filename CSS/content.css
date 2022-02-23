@@ -125,6 +125,8 @@
   padding: 0.5rem 0;
   text-shadow: 0rem 0rem 5rem green;
 }
+
+.packages .box-container .box .btn,
 #content .box-container .box .content .btn {
   display: inline-block;
   text-decoration: none;

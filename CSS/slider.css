@@ -54,6 +54,7 @@
   letter-spacing: 1px;
   font-weight: 100;
 }
+.packages .box-container .box .btn:hover,
 #content .box-container .box .content .btn:hover,
 .text-slider .morebanner-btn:hover {
   background-color: rgba(102, 252, 88, 0.267) !important;
