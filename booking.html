@@ -60,7 +60,16 @@
           <a href="index.html"><img src="img/GoodTrip5.png" alt="Logonav" /></a>
           <ul id="nav">
             <li><a href="index.html">Trang chủ</a></li>
-            <li><a href="#search">Tìm kiếm</a></li>
+            <li>
+              <a href="#">Tìm kiếm</a>
+              <div class="container-1">
+                <input
+                  class="subnav timkiem"
+                  type="search"
+                  placeholder="Tìm kiếm..."
+                />
+              </div>
+            </li>
             <li>
               <a href="#services">
                 Dịch vụ
@@ -75,7 +84,10 @@
             <li><a href="hotro.html">Hỗ trợ</a></li>
           </ul>
           <!-- User -->
-          <div class="user-section">
+          <div
+            class="user-section"
+            onclick="alert('Hãy đăng nhập để sử dụng dịch vụ')"
+          >
             <i class="fas fa-user"></i>
           </div>
           <div class="login-btn">
